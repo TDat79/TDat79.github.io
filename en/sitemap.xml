@@ -2,171 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/3-create-rest-api-with-api-gateway/1-create-rest-api/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/1-create-rest-api/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-create-rest-api-with-api-gateway/1-create-rest-api/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/3-create-rest-api-with-api-gateway/1-create-rest-api/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-create-rest-api-with-api-gateway/1-create-rest-api/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/1-create-rest-api/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/"
                 />
   </url><url>
-    <loc>/4-deploy-api-involking-api-gateway-url/1-deploy-api/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/1-deploy-api/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-deploy-api-involking-api-gateway-url/1-deploy-api/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/4-deploy-api-involking-api-gateway-url/1-deploy-api/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-deploy-api-involking-api-gateway-url/1-deploy-api/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/1-deploy-api/"
                 />
   </url><url>
-    <loc>/1-introduction/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/1-introduction/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduction/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/1-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduction/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/1-introduction/"
                 />
   </url><url>
-    <loc>/3-create-rest-api-with-api-gateway/2-create-get-method/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/2-create-get-method/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-create-rest-api-with-api-gateway/2-create-get-method/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/3-create-rest-api-with-api-gateway/2-create-get-method/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-create-rest-api-with-api-gateway/2-create-get-method/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/2-create-get-method/"
                 />
   </url><url>
-    <loc>/2-create-lambda-function/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/2-create-lambda-function/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-create-lambda-function/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/2-create-lambda-function/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-create-lambda-function/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/2-create-lambda-function/"
                 />
   </url><url>
-    <loc>/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/"
                 />
   </url><url>
-    <loc>/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/"
                 />
   </url><url>
-    <loc>/3-create-rest-api-with-api-gateway/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/</loc>
     <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-create-rest-api-with-api-gateway/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/3-create-rest-api-with-api-gateway/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-create-rest-api-with-api-gateway/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/3-create-rest-api-with-api-gateway/"
                 />
   </url><url>
-    <loc>/4-deploy-api-involking-api-gateway-url/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-deploy-api-involking-api-gateway-url/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/4-deploy-api-involking-api-gateway-url/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-deploy-api-involking-api-gateway-url/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/4-deploy-api-involking-api-gateway-url/"
                 />
   </url><url>
-    <loc>/5-clean-resources/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/5-clean-resources/</loc>
     <lastmod>1970-01-01T07:33:44+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-clean-resources/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/5-clean-resources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-clean-resources/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/5-clean-resources/"
                 />
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/categories/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/categories/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://TDat79.github.io/CreateRESTAPIwLambda/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/tags/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://TDat79.github.io/CreateRESTAPIwLambda/tags/"
                 />
   </url>
 </urlset>
