@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Create GET Method on Creat REST API with API Gateway &amp; Lambda</title>
+    <link>/3-create-rest-api-with-api-gateway/2-create-get-method/</link>
+    <description>Recent content in Create GET Method on Creat REST API with API Gateway &amp; Lambda</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/3-create-rest-api-with-api-gateway/2-create-get-method/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

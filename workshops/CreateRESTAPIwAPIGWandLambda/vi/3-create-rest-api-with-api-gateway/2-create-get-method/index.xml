@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tạo Get method kết nối đến Lambda Function on Tạo REST API với API Gateway &amp; Lambda</title>
+    <link>/vi/3-create-rest-api-with-api-gateway/2-create-get-method/</link>
+    <description>Recent content in Tạo Get method kết nối đến Lambda Function on Tạo REST API với API Gateway &amp; Lambda</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/vi/3-create-rest-api-with-api-gateway/2-create-get-method/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

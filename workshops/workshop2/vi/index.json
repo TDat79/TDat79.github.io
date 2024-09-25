@@ -1,0 +1,92 @@
+[
+{
+	"uri": "/vi/1-introduction/",
+	"title": "Giới thiệu",
+	"tags": [],
+	"description": "",
+	"content": "Nội dung:\nAmazon API Gateway AWS Lambda Lợi ích của việc sử dụng API Gateway và Lambda để xây dựng REST API Nội dung Amazon API Gateway Amazon API Gateway là dịch vụ được quản lý hoàn toàn giúp các nhà phát triển dễ dàng tạo, phát hành, duy trì, giám sát và bảo vệ API ở mọi quy mô. API đóng vai trò là \u0026ldquo;cửa trước\u0026rdquo; cho các ứng dụng để truy cập dữ liệu, logic nghiệp vụ hoặc chức năng từ các dịch vụ backend của bạn. Bằng cách sử dụng API Gateway, bạn có thể tạo các API RESTful và API WebSocket để kích hoạt các ứng dụng giao tiếp hai chiều theo thời gian thực. API Gateway hỗ trợ các khối lượng công việc có trong container và serverless, cũng như các ứng dụng web.\nAPI Gateway xử lý tất cả các tác vụ liên quan đến tiếp nhận và xử lý lên đến hàng trăm nghìn lệnh gọi API đồng thời, bao gồm quản lý lưu lượng truy cập, hỗ trợ CORS, xác thực và kiểm soát truy cập, điều tiết, giám sát và quản lý phiên bản API. API Gateway không yêu cầu phí tối thiểu hoặc phí ban đầu. Bạn trả tiền cho các lệnh gọi API bạn nhận được cũng như lượng dữ liệu được truyền đi và, với mô hình định giá theo bậc của API Gateway, bạn có thể giảm chi phí khi thay đổi quy mô sử dụng API.\nAWS Lambda AWS Lambda là một dịch vụ điện toán sẽ chạy mã của bạn để phản hồi các sự kiện và tự động quản lý tài nguyên điện toán, giúp dịch vụ này trở thành cách nhanh nhất để biến một ý tưởng thành một ứng dụng sản xuất phi máy chủ hiện đại.\nLợi ích của việc sử dụng API Gateway và Lambda để xây dựng REST API Không cần quản lý hạ tầng: Không phải lo lắng về việc duy trì và mở rộng máy chủ. Tự động mở rộng: AWS tự động mở rộng hạ tầng tùy theo nhu cầu lưu lượng. Tiết kiệm chi phí: Chỉ trả tiền cho số lần thực hiện Lambda và lưu lượng yêu cầu qua API Gateway. Tích hợp dễ dàng: Tích hợp với nhiều dịch vụ khác của AWS (S3, DynamoDB, RDS, v.v.) giúp xây dựng hệ thống hoàn chỉnh một cách đơn giản. Nội dung Hướng dẫn bạn:\nTạo một Lambda function với mã nguồn đơn giản. Tạo một API bằng API Gateway để kết nối với Lambda. Triển khai REST API. "
+},
+{
+	"uri": "/vi/3-create-rest-api-with-api-gateway/1-create-rest-api/",
+	"title": "Tạo REST API",
+	"tags": [],
+	"description": "",
+	"content": "Tạo REST API với API Gateway Truy cập vào AWS Management Console. Trong ô tìm kiếm, tìm và chọn API Gateway Trong mục API Gateway Tại mục Choose an API type: Chọn mục REST API chọn Build\nTrong mục Create REST API API details: Chọn New API API Name: HelloWorldAPI API endpoint: Regional Chọn Create API "
+},
+{
+	"uri": "/vi/",
+	"title": "Tạo REST API với API Gateway và Lambda",
+	"tags": [],
+	"description": "",
+	"content": "Tạo REST API với API Gateway và Lambda Tổng quan Trong bài lab đơn giản này, chúng ta sẽ cùng nhau xây dựng một REST API không máy chủ (serverless) sử dụng Amazon API Gateway và AWS Lambda. Mục tiêu của bài lab là hướng dẫn bạn tạo một Hello World Lambda function và thiết lập một endpoint thông qua API Gateway để gọi hàm này.\nCác bước chính: Tạo Lambda function: Xây dựng một Lambda function đơn giản trả về \u0026ldquo;Hello from Lambda!\u0026rdquo;. Cấu hình API Gateway: Thiết lập API Gateway để tạo một REST API endpoint kết nối với Lambda function. Triển khai API: Đưa API ra môi trường thực tế và thực hiện các yêu cầu HTTP để kiểm tra kết quả. Đây là bài lab cơ bản, phù hợp với những ai mới bắt đầu tìm hiểu về serverless trên AWS và muốn nắm được quy trình tạo và chạy một REST API đơn giản. Nội dung chính Giới thiệu Tạo Hello from Lambda Function Tạo REST API với API Gateway Triển khai API Dọn dẹp tài nguyên "
+},
+{
+	"uri": "/vi/4-deploy-api-involking-api-gateway-url/1-deploy-api/",
+	"title": "Triển khai REST API ",
+	"tags": [],
+	"description": "",
+	"content": " Trong mục Resource: Trong resource /helloworld: Chọn GET Chọn Deploy API Tại Deploy API Stage: Chọn New stage Stage name: dev Deploy "
+},
+{
+	"uri": "/vi/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/",
+	"title": "Gọi URL API Gateway đến hàm Lambda",
+	"tags": [],
+	"description": "",
+	"content": "Sau khi triển khai REST API thành công ta tiến hành gọi URL API Gateway đến hàm Lambda Copy Invoke URL Mở tab trình duyệt mới dán Invoke URL và thêm /helloworld\nBạn đã hoàn thành bài lab. Bài lab này đã hướng dẫn bạn cách tạo một REST API đơn giản với AWS Lambda và API Gateway. Bạn đã tạo một Lambda function trả về chuỗi \u0026ldquo;Hello from Lambda\u0026rdquo; và thiết lập API Gateway để kích hoạt Lambda này khi có yêu cầu HTTP. "
+},
+{
+	"uri": "/vi/3-create-rest-api-with-api-gateway/2-create-get-method/",
+	"title": "Tạo Get method kết nối đến Lambda Function",
+	"tags": [],
+	"description": "",
+	"content": "Sau khi tạo thành công REST API. Bạn sẽ được chuyển sang trang quản lí API. Bây giờ chúng ta sẽ tiến hành tạo 1 resource và method GET Trong bản điều khiển bên trái chọn Create resource. Resource name: Nhập helloworld Create resource Tạo method GET cho resource vừa tạo Chọn resource vừa tạo (/helloword), sau đó chọn Create method Trong mục create method Method type: chọn GET Integration type: chọn Lambda function Lambda Function: Chọn HelloWorldFunction đã tạo Create Method Hoàn thành tạo GET Method Ta thấy được mô hình giúp API Gateway xử lý yêu cầu trả về kết quả từ Lambda function thông qua REST API:\nClient: Gửi yêu cầu tới API Gateway.\nMethod request: API Gateway xác định phương thức và xử lý xác thực, nếu có.\nIntegration request: Chuẩn bị và chuyển yêu cầu đến Lambda function.\nLambda integration: Lambda function thực thi logic và trả kết quả.\nIntegration response: API Gateway nhận kết quả từ Lambda và chuẩn bị phản hồi.\nMethod response: API Gateway gửi phản hồi cho khách hàng.\nClient: Khách hàng nhận phản hồi từ API Gateway.\n"
+},
+{
+	"uri": "/vi/2-create-lambda-function/",
+	"title": "Tạo Hello from Lambda Function",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Lambda Function trên AWS Truy cập AWS Management Console Đăng nhập vào AWS Management Console. Trong ô tìm kiếm trên đầu trang, tìm và chọn Lambda. Tạo Lambda function mới Trong trang AWS Lambda, chọn Create a function. Trong giao diện Create function chọn: Author from scratch Function Name: HelloWorldFunction Runtime: chọn Node.js 20.x Có thể chọn các phiên bản phù hợp như Java hoặc Python,\u0026hellip;\nChọn Create function Tạo function thành công, bạn sẽ được chuyển đến trang cấu hình Lambda Trong phần Code Source bạn sẽ thấy một trình soạn thảo mã xuất ra lời chào từ Lambda. Chúng ta có thể thực hiện một sự kiện kiểm tra nhanh để đảm bảo đoạn mã trên hoạt động bình thường. Tiến hành Test source code: Chọn Test Cấu hình Configure test event Test event action: chọn Create new event Event name: MyEvent Các trường còn lại để mặc định Chọn Save Lưu test event thành công. Ta sẽ tiến hành chạy thử nghiệm bằng cách chọn Test Đây là kết quả khi chạy thành công "
+},
+{
+	"uri": "/vi/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/",
+	"title": "Kiểm tra hoạt động của API Gateway GET Method",
+	"tags": [],
+	"description": "",
+	"content": "Chúng ta sẽ tiến hành kiểm tra phương thức GET có hoạt động hay không Tại mục Resource Trong resource /helloworld: Chọn GET Chọn Test Trong Test Method: chọn Test Tại Response Body ta thấy phản hồi về \u0026ldquo;Hello from Lambda!\u0026rdquo; nên mọi thứ hoạt động tốt trong thử nghiệm. Bây giờ chúng ta sẽ triển khai để có thể gọi từ bên ngoài Triển khai API "
+},
+{
+	"uri": "/vi/3-create-rest-api-with-api-gateway/",
+	"title": "Tạo REST API với API Gateway",
+	"tags": [],
+	"description": "",
+	"content": "Tạo REST API với API Gateway Tạo REST API Tạo Get Method kết nối đến Lambda Function Kiểm tra hoạt động của API Gateway Get Method "
+},
+{
+	"uri": "/vi/4-deploy-api-involking-api-gateway-url/",
+	"title": "Triển khai API",
+	"tags": [],
+	"description": "",
+	"content": "Nội dung:\nTriển khai REST API Gọi URL API Gateway đến hàm Lambda "
+},
+{
+	"uri": "/vi/5-clean-resources/",
+	"title": "Dọn dẹp tài nguyên",
+	"tags": [],
+	"description": "",
+	"content": " Trong ô tìm kiếm tìm và chọn Lambda Chọn Function: Chọn các function đã tạo Chọn Action: Delete Chọn Delete Trong ô tìm kiếm tìm và chọn API Gateway Chọn APIs: Chọn các API đã tạo Chọn Delete Chọn Delete "
+},
+{
+	"uri": "/vi/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/vi/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

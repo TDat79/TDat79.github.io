@@ -1,0 +1,92 @@
+[
+{
+	"uri": "/3-create-rest-api-with-api-gateway/1-create-rest-api/",
+	"title": "Create REST API",
+	"tags": [],
+	"description": "",
+	"content": "Create a REST API with API Gateway Access the AWS Management Console.\nIn the search bar, search for and select API Gateway. In the API Gateway section:\nUnder Choose an API type, select REST API, then click Build. In the Create REST API section:\nAPI details: Select New API. API Name: HelloWorldAPI. API endpoint: Choose Regional. Click Create API. "
+},
+{
+	"uri": "/",
+	"title": "Create REST API with API Gateway and Lambda",
+	"tags": [],
+	"description": "",
+	"content": "Create a REST API with API Gateway and Lambda Overview In this simple lab, we will build a serverless REST API using Amazon API Gateway and AWS Lambda. The goal of this lab is to guide you through creating a Hello World Lambda function and setting up an endpoint via API Gateway to invoke this function.\nMain Steps: Create a Lambda function: Build a simple Lambda function that returns \u0026ldquo;Hello from Lambda!\u0026rdquo;. Configure API Gateway: Set up API Gateway to create a REST API endpoint that connects to the Lambda function. Deploy the API: Deploy the API to a live environment and make HTTP requests to test the result. This is a basic lab, suitable for beginners who are exploring serverless on AWS and want to understand the process of creating and running a simple REST API. Main Content Introduction Create Hello from Lambda Function Create REST API with API Gateway Deploy the API (Invoking API Gateway URL) Clean Up Resources "
+},
+{
+	"uri": "/4-deploy-api-involking-api-gateway-url/1-deploy-api/",
+	"title": "Deploy REST API ",
+	"tags": [],
+	"description": "",
+	"content": " In the Resource section:\nIn the /helloworld resource, select GET. Click Deploy API. In the Deploy API section:\nStage: Select New stage. Stage name: dev. Click Deploy. "
+},
+{
+	"uri": "/1-introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Contents:\nAmazon API Gateway AWS Lambda Benefits of Using API Gateway and Lambda to Build REST APIs Content Amazon API Gateway Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the \u0026ldquo;front door\u0026rdquo; for applications to access data, business logic, or functionality from your backend services. With API Gateway, you can create RESTful APIs and WebSocket APIs to enable real-time, two-way communication applications. API Gateway supports workloads in containers, serverless, and web applications.\nAPI Gateway handles all tasks involved in receiving and processing up to hundreds of thousands of concurrent API calls, including traffic management, CORS support, authorization and access control, throttling, monitoring, and API version management. There are no minimum fees or upfront commitments with API Gateway. You only pay for the API calls you receive and the amount of data transferred out, and with API Gateway’s tiered pricing model, you can reduce costs as your API usage scales.\nAWS Lambda AWS Lambda is a computing service that runs your code in response to events and automatically manages the underlying compute resources, making it the quickest way to turn an idea into a production-ready serverless application.\nBenefits of Using API Gateway and Lambda to Build REST APIs No infrastructure management: You don\u0026rsquo;t have to worry about maintaining and scaling servers. Automatic scaling: AWS automatically scales the infrastructure based on traffic demand. Cost-effective: You only pay for Lambda executions and API Gateway requests. Easy integration: Easily integrate with other AWS services (S3, DynamoDB, RDS, etc.) to build a complete system. Content This guide will walk you through:\nCreating a Lambda function with simple code. Setting up an API with API Gateway to connect to Lambda. Deploying the REST API. "
+},
+{
+	"uri": "/3-create-rest-api-with-api-gateway/2-create-get-method/",
+	"title": "Create GET Method",
+	"tags": [],
+	"description": "",
+	"content": "After successfully creating the REST API, you\u0026rsquo;ll be redirected to the API management page. Now, let\u0026rsquo;s create a resource and a GET method. In the left control panel, select Create resource.\nResource name: Enter helloworld Click Create resource Create a GET method for the newly created resource:\nSelect the /helloworld resource, then click Create method. In the create method section:\nMethod type: Select GET Integration type: Choose Lambda function Lambda Function: Select the HelloWorldFunction you created earlier. Click Create Method Complete GET Method creation: You will see the model that illustrates how API Gateway handles the request and returns the result from the Lambda function through the REST API:\nClient: Sends a request to API Gateway.\nMethod request: API Gateway determines the method and processes authentication if any.\nIntegration request: Prepares and forwards the request to the Lambda function.\nLambda integration: Lambda function executes logic and returns the result.\nIntegration response: API Gateway receives the result from Lambda and prepares the response.\nMethod response: API Gateway sends the response to the client.\nClient: Receives the response from API Gateway.\n"
+},
+{
+	"uri": "/2-create-lambda-function/",
+	"title": "Create Hello from Lambda Function",
+	"tags": [],
+	"description": "",
+	"content": "Create a Lambda Function on AWS Access the AWS Management Console\nLog in to the AWS Management Console. In the search bar at the top of the page, search for and select Lambda. Create a new Lambda function\nOn the AWS Lambda page, select Create a function. In the Create function interface, choose the following options:\nAuthor from scratch Function Name: HelloWorldFunction Runtime: Select Node.js 20.x You can choose other suitable runtimes like Java, Python, etc.\nClick Create function After successfully creating the function, you will be taken to the Lambda configuration page. In the Code Source section, you will see a code editor with a simple \u0026ldquo;Hello\u0026rdquo; message from Lambda. We can perform a quick test event to ensure the code works correctly. Test the source code:\nClick Test In the Configure test event dialog: Test event action: Select Create new event Event name: MyEvent Leave the other fields as default Click Save After saving the test event, you can run the test by clicking Test. Here is the result of a successful test run: "
+},
+{
+	"uri": "/4-deploy-api-involking-api-gateway-url/2-involking-api-gateway-url/",
+	"title": "Involking API Gateway URL",
+	"tags": [],
+	"description": "",
+	"content": "After successfully deploying the REST API, let\u0026rsquo;s invoke the API Gateway URL to call the Lambda function Copy the Invoke URL Open a new browser tab, paste the Invoke URL, and add /helloworld to the URL. You have completed the lab. This lab guided you through creating a simple REST API with AWS Lambda and API Gateway. You created a Lambda function that returns the string \u0026ldquo;Hello from Lambda\u0026rdquo; and set up API Gateway to trigger this Lambda function via an HTTP request.\n"
+},
+{
+	"uri": "/3-create-rest-api-with-api-gateway/3-testing-the-api-gateway-get-method/",
+	"title": "Testing the API Gateway GET Method",
+	"tags": [],
+	"description": "",
+	"content": "Let\u0026rsquo;s test if the GET method is working In the Resource section:\nIn the /helloworld resource, select GET. Click Test. In the Test Method interface, click Test. In the Response Body, you should see the response \u0026ldquo;Hello from Lambda!\u0026rdquo;, confirming everything is working well in the test.\nNow, we will deploy the API to allow external access. Follow this link to Deploy API.\n"
+},
+{
+	"uri": "/3-create-rest-api-with-api-gateway/",
+	"title": "Create REST API with API Gateway",
+	"tags": [],
+	"description": "",
+	"content": "Create REST API with API Gateway Create REST API Create Get Method to Connect Lambda Function Testing the API Gateway GET Method "
+},
+{
+	"uri": "/4-deploy-api-involking-api-gateway-url/",
+	"title": "Deploy API",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nDeploy REST API Invoke API Gateway URL to Call Lambda Function "
+},
+{
+	"uri": "/5-clean-resources/",
+	"title": "Clean Resources",
+	"tags": [],
+	"description": "",
+	"content": " In the search bar, find and select Lambda.\nChoose Function: Select the functions you have created. Choose Action: Select Delete. Confirm by clicking Delete. In the search bar, find and select API Gateway.\nChoose APIs: Select the APIs you have created. Click Delete. Confirm by clicking Delete. "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
